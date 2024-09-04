@@ -9,7 +9,7 @@ from langchain_community.vectorstores import FAISS
 
 # Set environment variables
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBSL4WptntWBlYNEL3KnJW8zJ6h0OvAtY4"
+os.environ["GOOGLE_API_KEY"] = "API"
 
 # Initialize Flask application
 app = Flask(__name__)
